@@ -44,7 +44,7 @@ ul li a:hover {
     padding: 0.5rem;
 }
 /* for mobile responsiveness*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     div.nav-bar {
         display: flex;
         justify-content: space-between;
@@ -58,6 +58,10 @@ ul li a:hover {
 
     ul.nav-links {
         flex-direction: column;
+        position: fixed;
+        line-height: 1.5rem;
+        text-align: center;
+        left: -100;
     }
 
     ul li {
@@ -124,6 +128,13 @@ div.hero-background {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+ul.show{
+    top: 1.5%;
+    left: 55%;
+    text-transform: uppercase;
+    line-height: 40px;
+    transition: all, 5s;
 }
 
 div.background {
@@ -377,3 +388,4 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+
