@@ -51,6 +51,10 @@ ul li a:hover {
         padding: 1.5rem;
         width: 100vw;
     }
+    #icon {
+        display: block;
+    }
+
     ul.show{
         top: 1.5%;
         left:55%;
@@ -80,6 +84,18 @@ ul li a:hover {
         display: block;
 
     }
+}
+#icon {
+    position: absolute;
+    top: -1%;
+    left: 80%;
+    color: white;
+    font-size: 25px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
 }
 div.hero-section {
     background: #304353;
@@ -135,13 +151,6 @@ div.hero-background {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-ul.show{
-    top: 1.5%;
-    left: 55%;
-    text-transform: uppercase;
-    line-height: 40px;
-    transition: all, 5s;
 }
 
 div.background {
