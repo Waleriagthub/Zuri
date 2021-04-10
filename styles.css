@@ -406,3 +406,16 @@ div.footer h6 {
         line-height: 40px;
         transition: all, 5s;
     }
+    #icon {
+        position: absolute;
+        top: -1%;
+        left: 80%;
+        color: white;
+        font-size: 25px;
+        line-height: 80px;
+        float: right;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+        
+    }
