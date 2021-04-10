@@ -48,14 +48,7 @@ ul li a:hover {
         font-size: 1.3rem;
     }
 
-    ul.nav-links {
-        flex-direction: column;
-        position: fixed;
-        line-height: 1.5rem;
-        text-align:left;
-        left: - 100%;
-    }
-
+    
     ul li {
         margin: 0;
         font-size: 1rem;
@@ -65,20 +58,21 @@ ul li a:hover {
         display: block;
 
     }
-}
-#icon {
-    position: absolute;
-    top: -1%;
-    left: 80%;
-    color: white;
-    font-size: 25px;
-    line-height: 80px;
-    float: right;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-    
-}
+   
+    #icon {
+        position: absolute;
+        top: -1%;
+        left: 80%;
+        color: white;
+        font-size: 25px;
+        line-height: 80px;
+        float: right;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+        
+    }
+
 div.hero-section {
     background: #304353;
     padding: 10rem;
@@ -406,16 +400,11 @@ div.footer h6 {
         line-height: 40px;
         transition: all, 5s;
     }
-    #icon {
-        position: absolute;
-        top: -1%;
-        left: 80%;
-        color: white;
-        font-size: 25px;
-        line-height: 80px;
-        float: right;
-        margin-right: 40px;
-        cursor: pointer;
-        display: none;
-        
+    
+    ul.nav-links {
+        flex-direction: column;
+        position: fixed;
+        line-height: 1.5rem;
+        text-align:left;
+        left: - 100%;
     }
