@@ -48,8 +48,15 @@ ul li a:hover {
     div.nav-bar {
         display: flex;
         justify-content: space-between;
-        padding: 1rem;
+        padding: 1.5rem;
         width: 100vw;
+    }
+    ul.show{
+        top: 1.5%;
+        left:55%;
+        text-transform: uppercase;
+        line-height: 40px;
+        transition: all, 5s;
     }
 
     div.logo {
@@ -60,8 +67,8 @@ ul li a:hover {
         flex-direction: column;
         position: fixed;
         line-height: 1.5rem;
-        text-align: center;
-        left: -100;
+        text-align:left;
+        left: - 100%;
     }
 
     ul li {
@@ -388,4 +395,5 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+
 
